@@ -1,13 +1,13 @@
-## Nginx Dockerfile
+## php5-fpm Dockerfile
 
 OS: Debian wheezy<br />
 PHP version: 5.4.4-14+deb7u10 (pkg version)
 
 ### Build
 
-    docker build -t foobargem/php5-fpm
+    docker build -t foobargem/php5-fpm .
 
-### Usage
+### Run
     
     docker run -d --name php5-fpm foobargem/php5-fpm
 
