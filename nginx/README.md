@@ -1,6 +1,6 @@
 ## Nginx Dockerfile
 
-OS: Debian wheezy
+OS: Debian wheezy<br />
 Nginx version: 1.2.1 (from pkg)
 
 ### Build
